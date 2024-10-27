@@ -7,7 +7,7 @@ function App() {
         <h1 className="text-4xl font-bold uppercase mb-4">
           <span className="text-6xl">
             URL to Video
-          </span><br />with the power of AI
+          </span><br /> <span className="bg-gradient-to-br from-emerald-300 from-30% to-sky-500 bg-clip-text text-transparent">with the power of AI</span> 
         </h1>
 
         <form className=" grid gap-2">
@@ -15,7 +15,7 @@ function App() {
           className="bg-transparent border-2 rounded-full text-white  px-4 py-2 grow" 
           type="url" placeholder="https://..."/>
           <button
-          className="bg-emerald-500 text-white px-4 py-2 rounded-full" 
+          className="bg-emerald-500 text-white px-4 py-2 rounded-full uppercase" 
           type="submit">
             Create&nbsp;Video
             </button>  
